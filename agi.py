@@ -60,8 +60,6 @@ def gpt_output(user_input):
     return conversection_history,""
 
 # chat loop 
-
-
 while True :
     user = STT()
     if user.lower() in ["exit" , "quit"]:
